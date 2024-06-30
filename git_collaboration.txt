@@ -1,22 +1,4 @@
---------------basics about git--------------
---------------------------------------------
-## initiate repository
-    git init
-
-## chech status
-    git status
-
-## begin tracking files
-    git add .
-
-## commit
-    git commit -m 'text_to_explain'
-
-## view the commit history
-    git log
---------------------------------------------
-
----------------Initial Try------------------
+---------------Initial Step-----------------
 --------------------------------------------
 ## clone an existing repository
     git clone <url>
@@ -36,6 +18,31 @@
         git push origin main
 
 
+---------------Following Step---------------
+--------------------------------------------
+## fetch and merge from your remotes to your previous cloned repo
+    git pull origin
+
+## view the commit history from others, type "q" to exit logs
+    git log
+
+## begin tracking files after add/edit/delete files
+    git add .
+
+## commit the changes
+    git commit -m 'text_to_explain_the_changes'
+
+## push to remotes (main branch)
+    git push origin main
+
+
+----------Other Relevant Commands----------
+--------------------------------------------
+## initiate repository
+    git init
+
+## chech status
+    git status
 
 ## branch
     git branch ## check the branches
@@ -46,13 +53,12 @@
 ## remotes
     git remote  # shows the shortnames
     git remote -v  # shows the urls
-    git remote set-url origin https://<PAT>@github.com/<username>/<repo> ## use PAT to reset remote url
 
-## push to remotes
-    git push <remote> <branch>
+## fetch and merge from your remotes separately to check what the differences are between versions
+    git fetch origin
+    git merge origin
 
-## fetch and merge from your remotes
-    git pull <remote>
+
 
 
 --------------------------------------------
