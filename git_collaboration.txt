@@ -27,6 +27,14 @@
 ## commit the changes
     git commit -m 'text_to_explain_the_changes'
 
+## push to remotes (main branch)
+    ## acquire personal access tokens (PAT) from github account
+        details referring to the youtube vedio link: https://www.youtube.com/watch?v=ePCBuIQJAUc
+    ## set the remote url with you own PAT
+        git remote set-url origin https://<PAT>@github.com/hongxhu/<repo>
+    ## push updates to remotes
+        git push origin main
+
 
 
 ## branch
