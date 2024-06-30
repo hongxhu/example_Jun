@@ -55,3 +55,6 @@
     git remote  # shows the shortnames
     git remote -v  # shows the urls
 
+## revert the commits
+    git revert <commit_hash> # the commit hash can be found by git log
+    git push origin main
