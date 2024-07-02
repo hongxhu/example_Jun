@@ -1,7 +1,7 @@
 ---------------Initial Step-----------------
 --------------------------------------------
 ## clone an existing repository
-    git clone <url>
+    git clone https://github.com/TrialDuraPredict/TrialDuraPredict
 
 ## begin tracking files after add/edit/delete files
     git add .
